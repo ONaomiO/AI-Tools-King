@@ -155,7 +155,6 @@ img {
   max-width: 1920px;
   background: #000;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 .section2 {
   width: 1296px;
@@ -164,6 +163,8 @@ img {
   .ser-text {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
     h3 {
       flex: 1 1 200px;
       padding-right: 24px;
@@ -177,6 +178,7 @@ img {
     .ser-list {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
 
       .ser-card {
         outline: 1px solid #525252;
