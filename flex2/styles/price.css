@@ -1,0 +1,269 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #fff;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz32 {
+  font-size: 32px;
+}
+
+.fz48 {
+  font-size: 48px;
+}
+
+.lh120 {
+  line-height: 120%;
+}
+
+.lh150 {
+  line-height: 150%;
+}
+
+.pb136 {
+  padding-bottom: 136px;
+}
+
+.pb160 {
+  padding-bottom: 160px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.ml24 {
+  margin-left: 24px;
+}
+
+.container {
+  max-width: 1920px;
+  background: #000;
+}
+
+.section2 {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 160px 0;
+}
+.section2 .list-price {
+  margin-bottom: 80px;
+}
+.section2 .plan-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  justify-content: space-between;
+  outline: 1px solid #525252;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.plan-card .plan-text {
+  padding: 20px 0 20px 32px;
+  border-bottom: 1px solid #525252;
+  display: flex;
+  flex-direction: column;
+}
+.plan-card .plan-text h3 {
+  padding-right: 540px;
+  padding-bottom: 12px;
+}
+.plan-card .plan-text .plan-detail {
+  padding-left: 10px;
+  list-style: disc;
+  list-style-position: inside;
+}
+.plan-card .plan-text .plan-detail li::marker {
+  font-size: 10px;
+}
+.plan-card .plan-price {
+  display: flex;
+  padding: 20px 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan-card .plan-price a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.plan-card .plan-price a img {
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    max-width: 375px;
+  }
+  .section2 {
+    width: 100%;
+    padding: 120px 12px;
+    margin: 0 auto;
+  }
+  .section2 .list-price {
+    margin-bottom: 24px;
+  }
+  .plan-card {
+    margin-bottom: 12px;
+  }
+  .plan-card .plan-text {
+    padding: 20px 0 20px 20px;
+  }
+  .plan-card .plan-text h3 {
+    padding-right: 267px;
+    padding-bottom: 12px;
+    white-space: nowrap;
+  }
+  .plan-card .plan-price {
+    padding: 20px 20px;
+  }
+}/*# sourceMappingURL=price.css.map */

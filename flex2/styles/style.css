@@ -1,0 +1,240 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  color: #fff;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz32 {
+  font-size: 32px;
+}
+
+.fz48 {
+  font-size: 48px;
+}
+
+.lh120 {
+  line-height: 120%;
+}
+
+.lh150 {
+  line-height: 150%;
+}
+
+.container {
+  max-width: 1920px;
+  background: #000;
+  margin: 0 auto;
+}
+
+.section2 {
+  width: 1296px;
+  margin: 0 auto;
+  padding: 160px 0;
+}
+.section2 .ser-text {
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .ser-text h3 {
+  flex: 1 1 200px;
+  padding-right: 24px;
+}
+.section2 .ser-text h1 {
+  flex: 1 1 600px;
+  margin-bottom: 80px;
+}
+.section2 .service .ser-list {
+  display: flex;
+  justify-content: space-between;
+}
+.section2 .service .ser-list .ser-card {
+  outline: 1px solid #525252;
+  padding: 80px 40px;
+  border-radius: 16px;
+  max-width: 416px;
+}
+.section2 .service .ser-list .ser-card h3 {
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 376px) {
+  .container {
+    max-width: 375px;
+  }
+  .section2 {
+    width: 100%;
+    padding: 120px 12px;
+    margin: 0 auto;
+  }
+  .section2 .ser-text {
+    flex-direction: column;
+  }
+  .section2 .ser-text h3 {
+    flex: none;
+    font-size: 20px;
+    padding-right: 24px;
+    margin-bottom: 24px;
+  }
+  .section2 .ser-text h1 {
+    flex: none;
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+  .section2 .service .ser-list {
+    flex-wrap: wrap;
+  }
+  .section2 .service .ser-list .ser-card {
+    outline: 1px solid #525252;
+    padding: 40px 20px;
+    border-radius: 16px;
+    max-width: 416px;
+    margin-bottom: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
